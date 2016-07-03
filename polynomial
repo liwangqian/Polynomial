@@ -1,0 +1,62 @@
+#ifndef POLYNOMIAL_INCLUDED
+#define POLYNOMIAL_INCLUDED
+
+#include <initializer_list>
+#include <valarray>
+#include <sstream>
+#include <iomanip>
+#include <armadillo>
+#include <boost/call_traits.hpp>
+
+#include "third_part/rpoly.h"
+
+namespace arma
+{
+
+#include "Poly/types_forward.hpp"
+#include "Poly/types_traits.hpp"
+
+#include "Poly/poly_aux.hpp"
+#include "Poly/functors.hpp"
+
+#include "Poly/poly_base.hpp"
+
+#include "Poly/glue_st.hpp"
+#include "Poly/glue_mt.hpp"
+
+#include "Poly/Polynomial.hpp"
+#include "Poly/poly_io.hpp"
+#include "Poly/poly_proxy.hpp"
+
+#include "Poly/poly_base_impl.hpp"
+#include "Poly/glue_st_impl.hpp"
+#include "Poly/glue_mt_impl.hpp"
+#include "Poly/poly_aux_impl.hpp"
+
+#include "Poly/poly_expression.hpp"
+
+#include "Poly/poly_io_impl.hpp"
+#include "Poly/Polynomial_impl.hpp"
+
+#include "Poly/functors_impl.hpp"
+#include "Poly/operations.hpp"
+
+#include "Poly/fn_root.hpp"
+#include "Poly/fn_pade.hpp"
+#include "Poly/fn_polyint.hpp"
+#include "Poly/fn_polyder.hpp"
+#include "Poly/fn_pow.hpp"
+#include "Poly/fn_polyfit.hpp"
+#include "Poly/fn_conv.hpp"
+#include "Poly/fn_deconv.hpp"
+#include "Poly/fn_poly.hpp"
+#include "Poly/fn_polyval.hpp"
+#include "Poly/fn_poly2sym.hpp"
+#include "Poly/fn_gcd.hpp"
+#include "Poly/fn_lcm.hpp"
+#include "Poly/fn_mat2poly.hpp"
+#include "Poly/fn_poly2mat.hpp"
+
+}
+
+#endif // POLYNOMIAL_INCLUDED
